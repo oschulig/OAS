@@ -1,29 +1,32 @@
-# Project TANGO
+# Python Brick Breaker
 
-Project Tango is a single-player retro game built using the [PYGAME module](https://www.pygame.org).
+This project is a simple and funny Brick Breaker with an easy level-editor, written in Python and created by 2 French students [Lucas Willems](http://www.lucaswillems.com) and Aymeric Lhullier for their ISN (Initiation aux Sciences du Numérique) project.
 
+## Requirements
 
-## How-to
-------
-1. Install Python 2.7.X or 3.5.x from [here](https://www.python.org/download/releases/).
+- Python 3
 
-2. Install PyGame 1.9.X from [here](http://www.pygame.org/download.shtml) or run `pip install pygame` in your Command Prompt or PowerShell.
+## How to play?
 
-3. Clone this repository: `git clone https://github.com/sohan1998/project-TANGO.git` or click `Download ZIP` in the right panel and extract it.
+<p align="center"><img src="README-images/game.png"></p>
 
-4. Run `python brick_breaker.py` from the repo's directory.
+Playing to our Brick Breaker is really simple:
 
-5. use <kbd>Space</kbd> key to start the game and <kbd>Esc</kbd> to close the game.
+1. Execute `python game.py`
+2. Press `space` to start playing
+3. Play and finish levels as fast as possible !
 
-  (Note: Install pyGame for same version python as above)
+## How to create/edit levels?
 
-  (For x64 windows, get exe [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame))
+<p align="center"><img src="README-images/editor.png"></p>
 
+Creating and editing levels is also an easy task:
 
-
-- [x] Paddle
-- [x] Ball
-- [ ] Bricks
-- [ ] Collisions
-- [ ] Score
-- [ ] Levels
+1. Execute `python editor.py`
+2. Enter the level number:
+	- If the level exists, it will be opened.
+	- If the level doesn't exist, it will be created.
+3. Edit the level:
+	1. Left click on a brick at the bottom of the screen to select its color.
+	2. Left click on a brick at the middle/top of the screen to make it take the selected color.
+	3. Right click on a brick at the middle/top of the screen to delete it.
