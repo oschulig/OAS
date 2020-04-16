@@ -17,3 +17,10 @@ Pong.py is created to be a single player game type that allows users the chance 
 Credits: jcruse2
 Disclaimer: School project, not used for profit
 https://github.com/ksu-is/Pong-Game-JC/blob/master/Pong.py
+
+# Owen/Greg New Section
+Project Goals:
+- I would like to tweak the movement of the paddle to have smoother handling
+- Create boundaries for the paddle so it does not go off screen
+- Create a "Winner" screen when player reaches certain score
+
