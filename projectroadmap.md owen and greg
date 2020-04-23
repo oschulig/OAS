@@ -7,4 +7,5 @@ Changed the background color to black for a more original pong look(owen)
 Binded "A" and "D" keys as left and right input as well.
 Made the ball into a different shape.
 import background music
+Changed the speed of the ball to create more of a challenge for the player
 
