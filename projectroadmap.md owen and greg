@@ -2,3 +2,7 @@ First I would like to personally critique the code to my liking
 Figure out the movement of the paddle and enhance it
 Create a new look to the game, but keep it a classic look
 My teammate Greg Allen will further inspect the code and make changes as well
+Made the paddle bigger and made movement quicker (greg)
+Changed the background color 
+Binded "A" and "D" keys as left and right input as well.
+Made the ball into a different shape.
