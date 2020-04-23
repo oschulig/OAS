@@ -4,7 +4,7 @@ import turtle
 
 screen = turtle.Screen()
 screen.title("Flashback Pong")
-screen.bgcolor("white") -> #Change background to black for original pong look
+screen.bgcolor("black") -> #Changed background to black for original pong look
 screen.setup(width=800, height=600)
 screen.tracer(0)
 
