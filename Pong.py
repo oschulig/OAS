@@ -22,7 +22,7 @@ paddle_b.goto(0, -200) #location of paddle B
 
 # Ball
 ball = turtle.Turtle()
-ball.speed(0)
+ball.speed(1) #Changed the ball speed to increase challenge for user(owen)
 ball.shape("square")
 ball.color("black") #changed ball color to black
 ball.penup()
